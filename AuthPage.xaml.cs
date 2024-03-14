@@ -27,7 +27,7 @@ namespace Tokarev41razmer
 
         private void guestBtn_Click(object sender, RoutedEventArgs e)
         {
-            Manager.MainFrame.Navigate(new ProductPage(guestBtn));
+            Manager.MainFrame.Navigate(new ProductPage(guestBtn));//dwa
         }
 
         private void enterBtn_Click(object sender, RoutedEventArgs e)
